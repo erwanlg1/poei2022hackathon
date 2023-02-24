@@ -1,7 +1,5 @@
 package com.freestack.spring.feature1.models;
 
-import org.example.Medecin;
-import org.example.Reservation;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,6 +15,7 @@ public  class Patient {
     private Long id;
 
     private String name;
+
 
     private List<Reservation> reservation;
 
